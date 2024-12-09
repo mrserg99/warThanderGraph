@@ -1,0 +1,74 @@
+{
+    "aviation": { - class
+        "Ударный истребитель" - индивидуал от класса "aviation": [ каждый объект является индивидуалом
+            { вот например индивидуал  от "Ударный истребитель"
+                "id": 11, - можешь забить
+                "name" - obj prop: "AV8B Plus",, 
+                "type" - Object prop: "Ударный истребитель / Палубный истребитель", 
+                "rank" - object prop: "8", - named individual
+                "link": "https://thunderskill.com/ru/vehicle/av_8b_plus", - можешь забить
+                "country" - Object prop: "usa", - class "country" и "usa" индивидуал тд для других стран
+                "modes" - object prop: {
+                    "arcade" class: { 
+                        "stats" class: { 
+                            "battles" - obj prop: 56,
+                            "win_rate" - obj prop: "100%",
+                            "air_kills_per_battle" - obj prop: 4.73,
+                            "air_kills_per_death" - obj prop: 4.29,
+                            "ground_kills_per_battle" - obj prop: 1.75,
+                            "ground_kills_per_death" - obj prop: 1.56
+                        },
+                        "bonuses" class: {
+                            "silverLionBonus" - obj prop: "78%",
+                            "expBonus" - obj prop: "256%"
+                        },
+                        "repairs" class: {
+                            "repairCost" - obj prop: "3,569 SL",
+                            "repairCostPerMinute" - obj prop: "1,164 SL",
+                            "repairFullCost" - obj prop: "5,630 SL"
+                        }
+                    },
+                    "realistic" class : {
+                        "stats" class: {
+                            "battles" - obj prop: 453,
+                            "win_rate" - obj prop: "65.3%",
+                            "air_kills_per_battle" - obj prop: 0.81,
+                            "air_kills_per_death" - obj prop: 0.96,
+                            "ground_kills_per_battle" - obj prop: 1.68,
+                            "ground_kills_per_death" - obj prop: 2.03
+                        },
+                        "bonuses" class: {
+                            "silverLionBonus"- obj prop: "316%",
+                            "expBonus" - obj prop: "256%"
+                        },
+                        "repairs" class: {
+                            "repairCost" - obj prop: "7,393 SL",
+                            "repairCostPerMinute" - obj prop: "1,164 SL",
+                            "repairFullCost" - obj prop: "11,661 SL"
+                        }
+                    },
+                    "simulator" class: {
+                        "stats" class : {
+                            "battles" - obj prop: 3,
+                            "win_rate" - obj prop: null, - если видешь null заменяй на 0
+                            "air_kills_per_battle" - obj prop: null,
+                            "air_kills_per_death" - obj prop: null,
+                            "ground_kills_per_battle" - obj prop: null,
+                            "ground_kills_per_death" - obj prop: null
+                        },
+                        "bonuses" class: {
+                            "silverLionBonus" - obj prop: "600%",
+                            "expBonus" - obj prop: "256%"
+                        },
+                        "repairs" calss: {
+                            "repairCost" - obj prop: "10,815 SL",
+                            "repairCostPerMinute" - obj prop: "896 SL",
+                            "repairFullCost" - obj prop: "17,059 SL"
+                        }
+                    }
+                },
+                "price" obj prop: "1,100,000 SL" 
+            }, - а вот тут он закончился
+        ] - это наш класс "Ударный истребитель"
+    } - наш класс "aviation"
+}
